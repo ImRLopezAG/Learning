@@ -16,3 +16,6 @@ Improving SQL performance is critical for handling large datasets efficiently an
 ---
 
 By focusing on these performance-enhancing techniques, you can significantly improve the efficiency and responsiveness of your SQL queries and database operations. Understanding and applying these concepts will help you manage large datasets more effectively and ensure your applications run smoothly.
+
+---
+## [[SQL Learning/Performance/Indexes|Indexes]]
