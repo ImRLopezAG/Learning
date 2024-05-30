@@ -9,4 +9,4 @@ The platform that I will be using is [Obsidian](https://obsidian.md/), it is a g
 
 ## Journey
 
-- [SQL](SQL Learning/README.md)
+- [SQL](./SQL%20Learning/README.md)
