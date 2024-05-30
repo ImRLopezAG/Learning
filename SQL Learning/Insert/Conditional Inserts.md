@@ -13,7 +13,6 @@
   ```
 - **Use Cases:** Preventing duplicate records.
 
-
 ## See
 
-### [[WHERE]]
+### [WHERE](../Keywords/WHERE.md)

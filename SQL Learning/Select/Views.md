@@ -17,4 +17,4 @@
 
 ## See
 
-### [[Use of Views and Materialized Views]]
+### [Use of Views and Materialized Views](../Performance/Use%20of%20Views%20and%20Materialized%20Views.md)

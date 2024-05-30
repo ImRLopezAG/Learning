@@ -1,4 +1,5 @@
-## [[Basics of DELETE]]
-## [[How Not to DELETE]]
+## [Basics of DELETE](./Delete/Basics%20of%20DELETE.md)
 
-## [[Using Transactions]]
+## [How Not to DELETE](./Delete/How%20Not%20to%20DELETE.md)
+
+## [Using Transactions](./Delete/Using%20Transactions.md)
