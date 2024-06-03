@@ -20,7 +20,6 @@
   ```
 - **Use Cases:** Fetching related data from multiple tables.
 
-
 ## See
 
-### [[JOINS]]
+### [JOINS](../Keywords/JOINS.md)

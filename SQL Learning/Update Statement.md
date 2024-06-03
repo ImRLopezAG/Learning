@@ -1,3 +1,5 @@
-## [[Basics of UPDATE]]
-## [[Conditional Updates]]
-## [[Stored Procedures for Updates]]
+## [Basics of UPDATE]()
+
+## [Conditional Updates]()
+
+## [Stored Procedures for Updates]()

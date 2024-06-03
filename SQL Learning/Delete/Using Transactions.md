@@ -14,7 +14,6 @@
   ```
 - **Use Cases:** Ensuring data integrity during delete operations.
 
-
 ## See
 
-### [[TRANSACTIONS]]
+### [TRANSACTIONS](../Keywords/TRANSACTIONS.md)

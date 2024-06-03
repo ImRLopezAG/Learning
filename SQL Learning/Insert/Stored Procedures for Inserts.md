@@ -16,6 +16,7 @@
   CALL insert_employee('Jane', 'Smith', 'Marketing');
   ```
 - **Use Cases:** Reusable insert logic, encapsulation.
+
 ## See
 
-### [[Stored Procedures]]
+### [Stored Procedures](../Performance/Stored%20Procedures.md)

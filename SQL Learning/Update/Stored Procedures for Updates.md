@@ -16,6 +16,7 @@
   CALL update_department(1, 'Engineering');
   ```
 - **Use Cases:** Reusable update logic, encapsulation.
+
 ## See
 
-### [[Stored Procedures]]
+### [Stored Procedures](../Performance/Stored%20Procedures.md)

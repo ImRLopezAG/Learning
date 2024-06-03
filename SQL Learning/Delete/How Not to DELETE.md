@@ -6,4 +6,4 @@
 
 ## See
 
-### [[WHERE]]
+### [WHERE](../Keywords/WHERE.md)
