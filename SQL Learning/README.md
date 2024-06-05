@@ -281,7 +281,6 @@ These tasks cover a wide range of SQL operations and will help you practice and 
 98. Modify the data type of the `StandardCost` column in the DimProduct table to DECIMAL(18,2).
 99. Add a new column `OrderCount` to the DimCustomer table and update it with the total number of orders for each customer.
 100. Rename the `Title` column to `JobTitle` in the DimEmployee table.
-
 ---
 
 These tasks will challenge your ability to work with complex SQL operations and enhance your understanding of advanced SQL concepts using the AdventureWorksDW database.
