@@ -111,3 +111,10 @@ A test in software development is a process or procedure intended to evaluate th
   - "xUnit Test Patterns" by Gerard Meszaros
   - "The Art of Software Testing" by Glenford J. Myers
 
+## Testing Tools
+
+- ***[Playwright](https://playwright.dev/)*** - A Node.js library to automate Chromium, Firefox, and WebKit with a single API.
+- ***[Cypress](https://www.cypress.io/)*** - A JavaScript-based end-to-end testing framework.
+- ***[WebDriverIO](https://webdriver.io/)*** - A custom implementation for the W3C WebDriver specification.
+- ***[Jest](https://jestjs.io/)*** - A delightful JavaScript testing framework.
+- ***[Appium](http://appium.io/)*** - An open-source test automation framework for use with native, hybrid, and mobile web apps.
