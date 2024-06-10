@@ -181,4 +181,135 @@ To navigate through children, you can combine the selectors mentioned above.
     await page.locator('li:nth-child(2)').click();
     ```
 
-By understanding and using these different types of selectors, you can accurately identify and interact with elements in your tests, ensuring thorough and reliable testing of your application.
+
+### 1. **First Child**
+The `:first-child` pseudo-class selects the first child element of its parent. It does not take any arguments.
+
+- **Syntax:** `:first-child`
+- **Example:** `p:first-child` (This selector will apply styles to the first `<p>` element that is a child of its parent.)
+
+#### Example:
+```html
+<div>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+</div>
+```
+```css
+p:first-child {
+    color: red;
+}
+```
+In this example, only the first `<p>` element inside the `<div>` will be styled with red text.
+
+### 2. **Last Child**
+The `:last-child` pseudo-class selects the last child element of its parent. It also does not take any arguments.
+
+- **Syntax:** `:last-child`
+- **Example:** `p:last-child` (This selector will apply styles to the last `<p>` element that is a child of its parent.)
+
+#### Example:
+```html
+<div>
+    <p>This is the first paragraph.</p>
+    <p>This is the last paragraph.</p>
+</div>
+```
+```css
+p:last-child {
+    color: blue;
+}
+```
+In this example, only the last `<p>` element inside the `<div>` will be styled with blue text.
+
+### 3. **Nth Child**
+The `:nth-child(n)` pseudo-class selects the nth child element of its parent, where `n` can be a number, keyword, or formula.
+
+- **Syntax:** `:nth-child(n)`
+- **Example:** `li:nth-child(2)` (This selector will apply styles to the second `<li>` element that is a child of its parent.)
+
+#### Example:
+```html
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ul>
+```
+```css
+li:nth-child(2) {
+    background-color: yellow;
+}
+```
+In this example, only the second `<li>` element inside the `<ul>` will have a yellow background.
+
+### 4. **First of Type**
+The `:first-of-type` pseudo-class selects the first element of its type within its parent, regardless of the element's position among its siblings.
+
+- **Syntax:** `:first-of-type`
+- **Example:** `p:first-of-type` (This selector will apply styles to the first `<p>` element of its type within its parent.)
+
+#### Example:
+```html
+<div>
+    <p>This is the first paragraph.</p>
+    <span>This is a span.</span>
+    <p>This is the second paragraph.</p>
+</div>
+```
+```css
+p:first-of-type {
+    font-weight: bold;
+}
+```
+In this example, the first `<p>` element will be bold, even though it is followed by a `<span>` before the second `<p>`.
+
+### 5. **Last of Type**
+The `:last-of-type` pseudo-class selects the last element of its type within its parent.
+
+- **Syntax:** `:last-of-type`
+- **Example:** `p:last-of-type` (This selector will apply styles to the last `<p>` element of its type within its parent.)
+
+#### Example:
+```html
+<div>
+    <p>This is the first paragraph.</p>
+    <span>This is a span.</span>
+    <p>This is the last paragraph.</p>
+</div>
+```
+```css
+p:last-of-type {
+    font-style: italic;
+}
+```
+In this example, the last `<p>` element will be italic, even though it is preceded by a `<span>`.
+
+### 6. **Nth of Type**
+The `:nth-of-type(n)` pseudo-class selects the nth element of its type within its parent, where `n` can be a number, keyword, or formula.
+
+- **Syntax:** `:nth-of-type(n)`
+- **Example:** `p:nth-of-type(2)` (This selector will apply styles to the second `<p>` element of its type within its parent.)
+
+#### Example:
+```html
+<div>
+    <p>This is the first paragraph.</p>
+    <span>This is a span.</span>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+</div>
+```
+```css
+p:nth-of-type(2) {
+    color: green;
+}
+```
+In this example, the second `<p>` element will have green text, regardless of the `<span>` in between.
+
+### Summary
+- **:first-child** and **:last-child** target the first and last child elements of any type within their parent, respectively.
+- **:nth-child(n)** targets the nth child element of any type within its parent.
+- **:first-of-type**, **:last-of-type**, and **:nth-of-type(n)** target the first, last, and nth child elements of a specific type within their parent, respectively.
+
+These pseudo-classes are useful for applying styles based on the position of elements within their parent, allowing for more dynamic and flexible CSS styling.
